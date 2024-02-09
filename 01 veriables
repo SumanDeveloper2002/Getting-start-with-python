@@ -1,0 +1,9 @@
+print("Hello world!")
+age=20
+# age1 = 30.5
+#age3=age+age1
+new_patient = "John Smith"
+print("patient name: "+new_patient)
+print ("patient age: " + str(age))  #type1
+print ("patient age: ",age)         #type2
+print ("patient age:%s "  %age)     #type3
