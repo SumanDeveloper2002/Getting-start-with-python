@@ -1,0 +1,8 @@
+#code
+name = input("What is your name? ")      #input is a function that takes input of a string " "
+print("Hello " + name)    #concatination is done here
+
+'''output:
+What is your name? suman
+Hello suman
+'''
