@@ -1,9 +1,22 @@
 print("Hello world!")
-age=20
-# age1 = 30.5
-#age3=age+age1
+
+age1=20
+age2 = 30.5
+age3=age2+age1
+print(age3)
+print(age2)
+
+'''
+problem1:
+you have to display a new patient record-
+patient name : John smith
+age: 20
+'''
+
+#code
+age =20
 new_patient = "John Smith"
-print("patient name: "+new_patient)
-print ("patient age: " + str(age))  #type1
+print("patient name: "+new_patient) #       (string+string >> string concatination)
+print ("patient age: " + str(age))  #type1 (string+integer)
 print ("patient age: ",age)         #type2
 print ("patient age:%s "  %age)     #type3
