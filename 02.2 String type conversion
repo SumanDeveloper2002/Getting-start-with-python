@@ -23,8 +23,10 @@ ex. year = int(birt_year) >> it will convert string "2002" to integer value 2002
 birth_year = input("Enter your birth year")
 current_year = 2024
 age = current_year - int(birth_year)
-print(age)
+print("currently you are",age,"old")
 
 #output>>
+Enter your birth year2002
+currently you are 22 old
 
 
