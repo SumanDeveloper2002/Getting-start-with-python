@@ -14,5 +14,17 @@ birth_year will take a string input(ex. "2002" as a string) but we can not subtr
 so we have to convert the string into integer, for that we have a builtin function in python library i.e -
 data_type(string variable)
 ex. year = int(birt_year) >> it will convert string "2002" to integer value 2002. now compiler can substract as formula says.
+>>another  int()
+           float()
+           bool()
+           str()
 
 #currected code >>
+birth_year = input("Enter your birth year")
+current_year = 2024
+age = current_year - int(birth_year)
+print(age)
+
+#output>>
+
+
